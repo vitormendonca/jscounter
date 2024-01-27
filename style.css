@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+   
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    margin-top: 100px;
+}
+
+h1{
+ font-size: 64px;
+}
+
+.num{
+    margin: 50px;
+    font-size: 64px;
+}
+
+button{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #313131;
+    background-color: #e2e2e2;
+    padding: 20px 60px;
+    margin: 10px;
+    border: 2px solid #dfdfdf;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 500ms;
+}
+
+button:hover{
+    transition: 300ms;
+    color: #313131;
+    background-color: #e2e2e2;
+    padding: 20px 60px;
+    border: 2px solid #292929;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+}
+
+button:active{
+    background-color: #3b3b3b;
+    color: #f3f1f1;
+    padding: 19px 56px;
+}
